@@ -27,7 +27,6 @@
   margin: 0px;
   padding: 0px;
   list-style: none;
-  font-size: 1.2rem;
   font-family: Open Sans;
 }
 
@@ -42,16 +41,7 @@ header {
 }
 
 
-.menu li a {
-  color: var(--azul);
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-}
 
-.menu li a:visited {
-  color: var(--azul)
-}
 
 footer {
   background-color: var(--cinza-claro);
@@ -98,4 +88,29 @@ main img {
 
 main .noticiaPrincial img {
   width: 720px;
+}
+
+.menuLateral {
+  padding-left: 15px;
+}
+
+.menuLateral h5 {
+  margin-bottom: 2rem;
+  color: var(--verde-escuro);
+  font-size: 1.25rem;
+}
+
+.menuLateral.esquerdo h5:hover {
+  cursor: pointer
+}
+
+.menu .menu-item {
+  border-bottom: solid 1px var(--cinza-escuro);
+  padding: 6px 5px;
+  font-weight: normal;
+}
+
+.menu .menu-item a {
+  color: var(--cinza-escuro);
+  text-decoration: none;
 }
