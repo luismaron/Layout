@@ -1,9 +1,12 @@
 body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  gap: 16px;
+
 }
 
-header {
+header,
+footer {
   grid-column-start: 1;
   grid-column-end: 4;
 }
@@ -11,6 +14,9 @@ header {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
 }
 
 main .noticiaPrincial {
