@@ -90,3 +90,12 @@ footer {
   color: var(--verde-escuro);
   font-weight: bold;
 }
+
+main img {
+  object-fit: cover;
+  width: 350px;
+}
+
+main .noticiaPrincial img {
+  width: 720px;
+}
