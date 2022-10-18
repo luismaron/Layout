@@ -10,3 +10,10 @@ nav ul {
   gap: 16px;
   padding: 0 1rem;
 } 
+
+.container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 16px;
+}
