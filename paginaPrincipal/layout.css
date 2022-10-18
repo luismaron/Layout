@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main .noticiaPrincial {
+  grid-column: 1 / 3;
+}

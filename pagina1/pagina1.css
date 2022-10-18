@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  align-self: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+
+/*
+body {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  flex-direction: column;
+}*/
