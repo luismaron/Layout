@@ -79,6 +79,22 @@ footer {
   color: white
 }
 
+nav li a {
+  color: #fff;
+  display: block;
+  justify-content: center;
+  padding: 0.5em 1em;
+  white-space: nowrap;
+  text-decoration: none;
+  border-bottom: 3px solid var(--verde-escuro);
+}
+
+nav li a:hover {
+  border-bottom: 3px solid var(--verde-claro);
+  display: block;
+
+}
+
 .menuLateral {
   color: var(--verde-escuro);
   font-weight: bold;

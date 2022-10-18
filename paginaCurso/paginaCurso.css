@@ -1,3 +1,10 @@
+body {
+  display: flex;
+  width: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .headerContent {
   display: flex;
   align-items: center;
@@ -9,7 +16,7 @@ nav ul {
   align-items: center;
   gap: 16px;
   padding: 0 1rem;
-} 
+}
 
 .container {
   margin-top: 10px;
