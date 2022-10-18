@@ -41,16 +41,19 @@ header {
   padding-top: 1rem;
 }
 
+nav {
+  background-color: var(--verde-escuro);
+}
 
 .menu li a {
-  color: var(--azul);
+  color: var(--cinza-claro);
   display: block;
   padding: 10px;
   text-decoration: none;
 }
 
 .menu li a:visited {
-  color: var(--azul)
+  color: var(--cinza)
 }
 
 footer {
