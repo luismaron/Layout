@@ -17,3 +17,19 @@ nav ul {
   grid-template-columns: 300px 1fr;
   gap: 16px;
 }
+
+.menuLateral {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+footer {
+  margin-top: 16px;
+}
